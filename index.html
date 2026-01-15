@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feiko van Dijk | DevOps Engineer</title>
+    <meta name="description"
+        content="DevOps Engineer & Behavioral Researcher. Specializing in Reliability, Scalability, and Automation.">
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/src/reset.css">
+    <link rel="stylesheet" href="/src/style.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="logo">F<span class="highlight">.</span></a>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active" data-i18n="nav.home">Home</a></li>
+                    <li><a href="about.html" data-i18n="nav.about">About</a></li>
+                    <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button class="language-toggle" aria-label="Switch language">
+                    <span class="lang-text">NL</span>
+                </button>
+
+                <button class="theme-toggle" aria-label="Toggle theme">
+                    <i class="ph ph-moon"></i>
+                </button>
+
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <i class="ph ph-list"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="overline" data-i18n="hero.overline">DevOps Engineer & Behavioral Researcher</p>
+                    <h1><span data-i18n="hero.title">Engineering</span> <span class="gradient-text"
+                            data-i18n="hero.titleGradient">Reliability</span> <br><span data-i18n="hero.scalability">&
+                            Scalability.</span></h1>
+                    <p class="subtitle" data-i18n="hero.subtitle">I combine my technical skills with a background in
+                        psychology to build reliable
+                        systems and help teams work better.</p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-primary" data-i18n="hero.cta">View Work</a>
+                        <a href="about.html" class="btn btn-text"><span data-i18n="hero.secondaryCta">Using psychology
+                                in tech?</span> <i class="ph ph-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="/images/feikohome.png" alt="Feiko van Dijk">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Expertise / Stack Section -->
+        <section id="services" class="services section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="services.title">Technical Expertise</h2>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="ph ph-cloud-check icon"></i>
+                        <h3 data-i18n="services.items.cloud.title">Cloud & Infra</h3>
+                        <p data-i18n="services.items.cloud.description">Designing robust client-server architectures
+                            focused on scalability. Experienced with AWS,
+                            GCP, and Azure IoT.</p>
+                        <ul class="tech-list">
+                            <li>AWS</li>
+                            <li>Docker</li>
+                            <li>Kubernetes</li>
+                            <li>Terraform</li>
+                            <li>Ansible</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <i class="ph ph-git-merge icon"></i>
+                        <h3 data-i18n="services.items.cicd.title">CI/CD & Automation</h3>
+                        <p data-i18n="services.items.cicd.description">Integrating continuous testing and deployment
+                            pipelines. Scaling build processes to reduce
+                            compilation time.</p>
+                        <ul class="tech-list">
+                            <li>GitLab CI</li>
+                            <li>Jenkins</li>
+                            <li>GitHub Actions</li>
+                            <li>Build Scaling</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <i class="ph ph-security-camera icon"></i>
+                        <h3 data-i18n="services.items.security.title">Observability & Security</h3>
+                        <p data-i18n="services.items.security.description">Implementing data collection tools handling
+                            400k+ daily events. Specialized in OSINT and Web
+                            security (CTF).</p>
+                        <ul class="tech-list">
+                            <li>Grafana Stack</li>
+                            <li>Python Data Analysis</li>
+                            <li>CyberSec / CTF</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <i class="ph ph-heart icon"></i>
+                        <h3 data-i18n="services.items.opensource.title">Open Source & Community</h3>
+                        <p data-i18n="services.items.opensource.description">Deeply involved in the open source
+                            ecosystem. Contributing to projects, maintaining packages, and building community tools.</p>
+                        <ul class="tech-list">
+                            <li>Package Maintainer</li>
+                            <li>Community Tools</li>
+                            <li>Contributor</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Stack Cards -->
+        <section class="stack-section">
+            <div class="container">
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="terminal-title">feiko@portfolio:~/stack</div>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="code-line"><span class="prompt">$</span> ./show-stack.sh --icons</div>
+
+                        <div class="terminal-categories">
+
+                            <!-- Cloud & Platforms -->
+                            <div class="term-category">
+                                <span class="comment"># Cloud & Platforms</span>
+                                <div class="tech-grid term-grid">
+                                    <div class="tech-card term-card"><i
+                                            class="devicon-amazonwebservices-plain-wordmark colored"></i>
+                                        <span>AWS</span>
+                                    </div>
+                                    <div class="tech-card term-card"><i class="devicon-googlecloud-plain colored"></i>
+                                        <span>GCP</span>
+                                    </div>
+                                    <div class="tech-card term-card"><i class="devicon-azure-plain colored"></i>
+                                        <span>Azure</span>
+                                    </div>
+                                    <div class="tech-card term-card"><i class="devicon-cloudflare-plain colored"></i>
+                                        <span>Cloudflare</span>
+                                    </div>
+                                    <div class="tech-card term-card"><i class="devicon-linux-plain colored"></i>
+                                        <span>Linux</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Infrastructure -->
+                            <div class="term-category">
+                                <span class="comment"># Infrastructure</span>
+                                <div class="tech-grid term-grid">
+                                    <div class="tech-card term-card"><i class="devicon-terraform-plain colored"></i>
+                                        <span>Terraform</span>
+                                    </div>
+                                    <div class="tech-card term-card"><i class="devicon-ansible-plain colored"></i>
+                                        <span>Ansible</span>
+                                    </div>
+                                    <div class="tech-card term-card"><i class="devicon-docker-plain colored"></i>
+                                        <span>Docker</span>
+                                    </div>
+                                    <div class="tech-card term-card"><i class="devicon-kubernetes-plain colored"></i>
+                                        <span>K8s</span>
+                                    </div>
+                                    <div class="tech-card term-card"><i class="devicon-nginx-original colored"></i>
+                                        <span>Nginx</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- CI/CD -->
+                            <div class="term-category">
+                                <span class="comment"># CI/CD & Tools</span>
+                                <div class="tech-grid term-grid">
+                                    <div class="tech-card term-card"><i class="devicon-gitlab-plain colored"></i>
+                                        <span>GitLab</span>
+                                    </div>
+                                    <div class="tech-card term-card"><i class="devicon-github-original colored"></i>
+                                        <span>GitHub</span>
+                                    </div>
+                                    <div class="tech-card term-card"><i class="devicon-jenkins-plain colored"></i>
+                                        <span>Jenkins</span>
+                                    </div>
+                                    <div class="tech-card term-card"><i class="devicon-git-plain colored"></i>
+                                        <span>Git</span>
+                                    </div>
+                                    <div class="tech-card term-card"><i class="devicon-jetbrains-plain colored"></i>
+                                        <span>TeamCity</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Languages -->
+                            <div class="term-category">
+                                <span class="comment"># Languages</span>
+                                <div class="tech-grid term-grid">
+                                    <div class="tech-card term-card"><i class="devicon-python-plain colored"></i>
+                                        <span>Python</span>
+                                    </div>
+                                    <div class="tech-card term-card"><i class="devicon-bash-plain colored"></i>
+                                        <span>Bash</span>
+                                    </div>
+                                    <div class="tech-card term-card"><i class="devicon-powershell-plain colored"></i>
+                                        <span>PowerShell</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Databases -->
+                            <div class="term-category">
+                                <span class="comment"># Databases</span>
+                                <div class="tech-grid term-grid">
+                                    <div class="tech-card term-card"><i class="devicon-postgresql-plain colored"></i>
+                                        <span>PostgreSQL</span>
+                                    </div>
+                                    <div class="tech-card term-card"><i class="devicon-mysql-plain colored"></i>
+                                        <span>MariaDB / MySQL</span>
+                                    </div>
+                                    <div class="tech-card term-card"><i class="devicon-neo4j-plain colored"></i>
+                                        <span>Neo4J</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Observability -->
+                            <div class="term-category">
+                                <span class="comment"># Security & Observability</span>
+                                <div class="tech-grid term-grid">
+                                    <div class="tech-card term-card"><i class="devicon-grafana-original colored"></i>
+                                        <span>Grafana</span>
+                                    </div>
+                                    <div class="tech-card term-card"><i class="devicon-prometheus-original colored"></i>
+                                        <span>Prometheus</span>
+                                    </div>
+                                    <div class="tech-card term-card"><i class="ph ph-lock-key"></i> <span>Vault</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="code-line"><span class="prompt">$</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience section">
+            <div class="container">
+                <div class="section-header">
+                    <h2><i class="ph ph-suitcase-simple"
+                            style="margin-right: 0.5rem; color: var(--accent-primary);"></i> <span
+                            data-i18n="experience.title">Resume & Experience</span></h2>
+                </div>
+                <div id="experience-container" class="resume-container">
+                    <!-- Dynamic Content -->
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h2 data-i18n="contact.title">Let's Work Together</h2>
+                        <p data-i18n="contact.text">I am currently available for contracting roles (ZZP) and am actively
+                            looking for
+                            opportunities to relocate to Australia.</p>
+
+                        <div class="contact-details">
+                            <a href="mailto:mail@feiko.org" class="contact-link">
+                                <i class="ph ph-envelope-simple"></i>
+                                mail@feiko.org
+                            </a>
+                            <div class="contact-link">
+                                <i class="ph ph-map-pin"></i>
+                                Arnhem, NL
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/feikovandijk/" aria-label="LinkedIn" target="_blank"><i
+                                    class="ph ph-linkedin-logo"></i></a>
+                            <a href="https://ctftime.org/team/165809" aria-label="CTFTime" target="_blank"><i
+                                    class="ph ph-flag"></i></a>
+                            <a href="https://github.com/Feikovandijk" aria-label="GitHub" target="_blank"><i
+                                    class="ph ph-github-logo"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Feiko van Dijk. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>

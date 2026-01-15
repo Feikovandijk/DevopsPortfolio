@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Feiko van Dijk</title>
+    <meta name="description"
+        content="About Feiko van Dijk - DevOps Engineer with a background in Game Technologies and Cyberpsychology.">
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/src/reset.css">
+    <link rel="stylesheet" href="/src/style.css">
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="logo">F<span class="highlight">.</span></a>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                    <li><a href="about.html" class="active" data-i18n="nav.about">About</a></li>
+                    <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button class="language-toggle" aria-label="Switch language">
+                    <span class="lang-text">NL</span>
+                </button>
+                <button class="theme-toggle" aria-label="Toggle theme">
+                    <i class="ph ph-moon"></i>
+                </button>
+
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <i class="ph ph-list"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Intro Section -->
+        <section class="section about-intro">
+            <div class="container">
+                <div class="about-grid-new">
+                    <!-- Text Content -->
+                    <div class="about-content">
+                        <p class="overline" data-i18n="aboutPage.overline">Feiko van Dijk - Technical & Game Designer
+                        </p>
+                        <h1><span class="gradient-text" data-i18n="aboutPage.title">Hello!</span></h1>
+
+                        <div class="bio-text">
+                            <p data-i18n="aboutPage.bio.p1">I'm a Technical Designer and DevOps Engineer who loves
+                                turning challenges into engaging
+                                experiences. I've been lucky enough to have worked on a variety of projects, from coding
+                                to crafting gameplay, and each one has taught me something new. As a generalist, I'm
+                                quick to learn, adapt, and use my diverse experience to help shape any project into
+                                something fantastic.</p>
+
+                            <p data-i18n="aboutPage.bio.p2">I'm naturally curious, whether I'm solving tricky software
+                                issues or diving into hands-on
+                                challenges like car projects and home renovations (and occasionally 'fixing' something
+                                that wasn't broken keeps life interesting). Every unconventional project is an
+                                opportunity to learn something new.</p>
+
+                            <p data-i18n="aboutPage.bio.p3">I also have a deep interest in understanding how design
+                                changes influences user behavior.
+                                My Master's thesis dove into how singleplayer survival games can simulate "real-world"
+                                experiences and how multiplayer elements can deeply change and enhance game experiences.
+                            </p>
+
+                            <p data-i18n="aboutPage.bio.p4">I value collaboration and believe that great games are built
+                                by teams who share ideas and
+                                support each other. When I'm not immersed in game development, you'll likely find me
+                                outdoors, climbing rocks and embracing new adventures.</p>
+                        </div>
+                    </div>
+
+                    <!-- Image Collage -->
+                    <div class="image-collage">
+                        <div class="collage-row-top">
+                            <div class="collage-img small">
+                                <img src="/images/feikoclimb.jpg" alt="Climbing">
+                            </div>
+                            <div class="collage-img small">
+                                <img src="/images/feikoballs.jpg" alt="Having fun">
+                            </div>
+                        </div>
+                        <div class="collage-row-bottom">
+                            <div class="collage-img large">
+                                <img src="/images/feikofancy.jpg" alt="Portrait">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section-simple">
+            <div class="container">
+                <h2 data-i18n="aboutPage.contactTitle">Contact</h2>
+                <p><span data-i18n="aboutPage.contactText">Please reach out to me at</span> <a
+                        href="mailto:mail@feiko.org" class="link-highlight">mail@feiko.org</a>
+                </p>
+
+                <div class="social-links-row">
+                    <a href="mailto:mail@feiko.org"><i class="ph ph-envelope-simple"></i> mail@feiko.org</a>
+                    <a href="https://www.linkedin.com/in/feikovandijk/" target="_blank"><i
+                            class="ph ph-linkedin-logo"></i> LinkedIn</a>
+                    <a href="https://ctftime.org/team/165809" target="_blank"><i class="ph ph-flag"></i> CTFTime</a>
+                    <a href="https://github.com/Feikovandijk" target="_blank"><i class="ph ph-github-logo"></i>
+                        GitHub</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Feiko van Dijk. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
