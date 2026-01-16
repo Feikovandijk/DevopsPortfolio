@@ -19,7 +19,7 @@ export const nl: Translation = {
         items: {
             cloud: {
                 title: "Cloud & Infra",
-                description: "Ontwerpen van robuuste client-server architecturen gericht op schaalbaarheid. Ervaring met AWS, GCP en Azure IoT.",
+                description: "Ontwerpen van robuuste client-server architecturen gericht op schaalbaarheid. Ervaring met GCP en Azure IoT.",
             },
             cicd: {
                 title: "CI/CD & Automatisering",
@@ -56,8 +56,8 @@ export const nl: Translation = {
                 role: "DevOps Engineer & Technical Designer",
                 company: "Viscacha Studios",
                 date: "Sept 2021 - Jun 2025",
-                description: "Gestandaardiseerde CI/CD-systemen opgezet die bouwtijden met 70% verminderden en schaalbare client-server infrastructuur ontworpen op AWS/K8s. Dataverzameling geïmplementeerd voor 400k+ dagelijkse events en de technische communicatie met stakeholders geleid.",
-                tags: ["AWS", "CI/CD", "K8s", "Python", "Architectuur"]
+                description: "Gestandaardiseerde CI/CD-systemen opgezet die bouwtijden met 70% verminderden en schaalbare client-server infrastructuur ontworpen op K8s. Dataverzameling geïmplementeerd voor 400k+ dagelijkse events en de technische communicatie met stakeholders geleid.",
+                tags: ["CI/CD", "K8s", "Python", "Architectuur"]
             },
 
         ]

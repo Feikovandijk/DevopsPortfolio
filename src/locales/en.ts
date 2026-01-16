@@ -19,7 +19,7 @@ export const en: Translation = {
         items: {
             cloud: {
                 title: "Cloud & Infra",
-                description: "Designing robust client-server architectures focused on scalability. Experienced with AWS, GCP, and Azure IoT.",
+                description: "Designing robust client-server architectures focused on scalability. Experienced with GCP and Azure IoT.",
             },
             cicd: {
                 title: "CI/CD & Automation",
@@ -56,8 +56,8 @@ export const en: Translation = {
                 role: "DevOps Engineer & Technical Designer",
                 company: "Viscacha Studios",
                 date: "Sept 2021 - Jun 2025",
-                description: "Standardized CI/CD systems reducing build times by 70% and architected scalable client-server infrastructure on AWS/K8s. Implemented data collection for 400k+ daily events and led technical communications with stakeholders.",
-                tags: ["AWS", "CI/CD", "K8s", "Python", "Architecture"]
+                description: "Standardized CI/CD systems reducing build times by 70% and architected scalable client-server infrastructure on K8s. Implemented data collection for 400k+ daily events and led technical communications with stakeholders.",
+                tags: ["CI/CD", "K8s", "Python", "Architecture"]
             },
 
         ]
