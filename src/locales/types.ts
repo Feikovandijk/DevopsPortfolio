@@ -10,6 +10,7 @@ export interface Translation {
     nav: {
         home: string;
         about: string;
+        blog: string;
         contact: string;
     };
     hero: {

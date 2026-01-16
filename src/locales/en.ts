@@ -4,6 +4,7 @@ export const en: Translation = {
     nav: {
         home: "Home",
         about: "About",
+        blog: "Blog",
         contact: "Contact",
     },
     hero: {
@@ -51,13 +52,7 @@ export const en: Translation = {
                 description: "Standardized CI/CD systems reducing build times by 70% and architected scalable client-server infrastructure on AWS/K8s. Implemented data collection for 400k+ daily events and led technical communications with stakeholders.",
                 tags: ["AWS", "CI/CD", "K8s", "Python", "Architecture"]
             },
-            {
-                role: "Team Lead",
-                company: "Mountain Network, Arnhem",
-                date: "Sept 2023 - Oct 2024",
-                description: "Location manager responsible for 20+ employees. Managed HR, finance, and daily operations with a focus on safety and decision-making under pressure.",
-                tags: ["Leadership", "Management", "Operations"]
-            }
+
         ]
     },
     contact: {

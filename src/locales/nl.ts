@@ -4,6 +4,7 @@ export const nl: Translation = {
     nav: {
         home: "Home",
         about: "Over mij",
+        blog: "Blog",
         contact: "Contact",
     },
     hero: {
@@ -51,13 +52,7 @@ export const nl: Translation = {
                 description: "Gestandaardiseerde CI/CD-systemen opgezet die bouwtijden met 70% verminderden en schaalbare client-server infrastructuur ontworpen op AWS/K8s. Dataverzameling geïmplementeerd voor 400k+ dagelijkse events en de technische communicatie met stakeholders geleid.",
                 tags: ["AWS", "CI/CD", "K8s", "Python", "Architectuur"]
             },
-            {
-                role: "Team Lead",
-                company: "Mountain Network, Arnhem",
-                date: "Sept 2023 - Okt 2024",
-                description: "Locatiemanager verantwoordelijk voor 20+ medewerkers. Beheerde HR, financiën en dagelijkse operaties met een focus op veiligheid en besluitvorming onder druk.",
-                tags: ["Leiderschap", "Management", "Operaties"]
-            }
+
         ]
     },
     contact: {
@@ -71,7 +66,7 @@ export const nl: Translation = {
             p1: "Ik ben een Technical Designer en DevOps Engineer die ervan houdt om uitdagingen om te zetten in boeiende ervaringen. Ik heb het geluk gehad aan diverse projecten te werken, van coderen tot gameplay ontwerpen, en elk project heeft me iets nieuws geleerd. Als generalist leer ik snel, pas ik me makkelijk aan en gebruik ik mijn brede ervaring om elk project vorm te geven tot iets fantastisch.",
             p2: "Ik ben van nature nieuwsgierig, of ik nu lastige softwareproblemen oplos of in praktische uitdagingen duik zoals autoprojecten en huisrenovaties (en af en toe iets 'repareren' wat niet kapot was houdt het leven interessant). Elk onconventioneel project is een kans om iets nieuws te leren.",
             p3: "Ik heb interesse in hoe ontwerpkeuzes gebruikersgedrag beïnvloeden. Mijn masterscriptie dook in hoe singleplayer survival games \"echte wereld\"-ervaringen kunnen simuleren en hoe multiplayer-elementen spelervaringen diepgaand kunnen veranderen en verbeteren.",
-            p4: "Ik hecht veel waarde aan samenwerking en geloof dat geweldige games worden gebouwd door teams die ideeën delen en elkaar steunen. Als ik niet verdiept ben in game development, vind je me waarschijnlijk buiten, rotsen beklimmend en nieuwe avonturen omarmend."
+            p4: "Ik hecht veel waarde aan samenwerking en geloof dat geweldige producten worden gebouwd door teams die ideeën delen en elkaar steunen. Als ik niet verdiept ben in software of game development, vind je me waarschijnlijk buiten, rotsen beklimmend en nieuwe avonturen omarmend."
         },
         contactTitle: "Contact",
         contactText: "Neem contact op via",
