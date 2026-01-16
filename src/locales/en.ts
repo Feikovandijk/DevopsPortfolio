@@ -63,10 +63,10 @@ export const en: Translation = {
         overline: "Feiko van Dijk - Technical & Game Designer",
         title: "Hello!",
         bio: {
-            p1: "I'm a Technical Designer and DevOps Engineer who loves turning challenges into engaging experiences. I've been lucky enough to have worked on a variety of projects, from coding to crafting gameplay, and each one has taught me something new. As a generalist, I'm quick to learn, adapt, and use my diverse experience to help shape any project into something fantastic.",
-            p2: "I'm naturally curious, whether I'm solving tricky software issues or diving into hands-on challenges like car projects and home renovations (and occasionally 'fixing' something that wasn't broken keeps life interesting). Every unconventional project is an opportunity to learn something new.",
+            p1: "As a DevOps Engineer, I focus on building reliable systems and automating workflows. I specialize in setting up scalable cloud infrastructure and streamlining CI/CD pipelines, allowing development teams to focus on building features.",
+            p2: "I am naturally curious and love diving deep into technology. Whether it's debugging containers, writing infrastructure-as-code, or renovating my house; I always look for the most efficient and sustainable solution.",
             p3: "I also have a deep interest in understanding how design changes influences user behavior. My Master's thesis dove into how singleplayer survival games can simulate \"real-world\" experiences and how multiplayer elements can deeply change and enhance game experiences.",
-            p4: "I value collaboration and believe that great games are built by teams who share ideas and support each other. When I'm not immersed in game development, you'll likely find me outdoors, climbing rocks and embracing new adventures."
+            p4: "I strongly believe in the DevOps culture of collaboration and knowledge sharing. Outside of work, you'll likely find me in nature or on a climbing wall, always looking for a new challenge."
         },
         contactTitle: "Contact",
         contactText: "Please reach out to me at",

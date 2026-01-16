@@ -63,10 +63,10 @@ export const nl: Translation = {
         overline: "DevOps Engineer | Technical Developer | MSc Game Technologies",
         title: "Hallo!",
         bio: {
-            p1: "Ik ben een DevOps Engineer die ervan houdt om uitdagingen om te zetten in boeiende ervaringen. Ik heb het geluk gehad aan diverse projecten te werken, van coderen tot gameplay ontwerpen, en elk project heeft me iets nieuws geleerd. Als generalist leer ik snel, pas ik me makkelijk aan en gebruik ik mijn brede ervaring om elk project vorm te geven tot iets fantastisch.",
-            p2: "Ik ben van nature nieuwsgierig, of ik nu lastige softwareproblemen oplos of in praktische uitdagingen duik zoals autoprojecten en huisrenovaties (en af en toe iets 'repareren' wat niet kapot was houdt het leven interessant). Elk onconventioneel project is een kans om iets nieuws te leren.",
-            p3: "Ik heb interesse in hoe ontwerpkeuzes gebruikersgedrag beïnvloeden. Mijn masterscriptie dook in hoe singleplayer survival games \"echte wereld\"-ervaringen kunnen simuleren en hoe multiplayer-elementen spelervaringen diepgaand kunnen veranderen en verbeteren.",
-            p4: "Ik hecht veel waarde aan samenwerking en geloof dat geweldige producten worden gebouwd door teams die ideeën delen en elkaar steunen. Als ik niet verdiept ben in software of game development, vind je me waarschijnlijk buiten, rotsen aan het beklimmen :)"
+            p1: "Als DevOps Engineer richt ik mij op het bouwen van betrouwbare systemen en het automatiseren van workflows. Ik focus op het opzetten van schaalbare cloud-infrastructuur en het stroomlijnen van CI/CD-pipelines, zodat development teams zich kunnen richten op het bouwen van features.",
+            p2: "Ik ben van nature nieuwsgierig en duik graag diep de techniek in. Of het nu gaat om het debuggen van containers, het schrijven van infrastructure-as-code, of het renoveren van mijn huis; ik zoek altijd naar de meest efficiënte en duurzame oplossing.",
+            p3: "Met mijn achtergrond in technische psychologie kijk ik ook naar de menselijke kant van DevOps. Tools en processen moeten niet alleen technisch kloppen, maar ook intuïtief werken voor de mensen die er dagelijks mee werken.",
+            p4: "Ik geloof sterk in de DevOps-cultuur van samenwerking en kennisdeling. Buiten het werk vind je me waarschijnlijk in de natuur of aan een klimwand, altijd op zoek naar een nieuwe uitdaging."
         },
         contactTitle: "Contact",
         contactText: "Neem contact op via",
