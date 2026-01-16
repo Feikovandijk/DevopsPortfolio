@@ -65,7 +65,7 @@ export const en: Translation = {
         bio: {
             p1: "As a DevOps Engineer, I focus on building reliable systems and automating workflows. I specialize in setting up scalable cloud infrastructure and streamlining CI/CD pipelines, allowing development teams to focus on building features.",
             p2: "I am naturally curious and love diving deep into technology. Whether it's debugging containers, writing infrastructure-as-code, or renovating my house; I always look for the most efficient and sustainable solution.",
-            p3: "I also have a deep interest in understanding how design changes influences user behavior. My Master's thesis dove into how singleplayer survival games can simulate \"real-world\" experiences and how multiplayer elements can deeply change and enhance game experiences.",
+            p3: "With my background in technical psychology, I also consider the human side of DevOps. Tools and processes must not only be technically sound but also work intuitively for the people using them daily.",
             p4: "I strongly believe in the DevOps culture of collaboration and knowledge sharing. Outside of work, you'll likely find me in nature or on a climbing wall, always looking for a new challenge."
         },
         contactTitle: "Contact",
