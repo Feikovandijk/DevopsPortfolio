@@ -63,10 +63,10 @@ export const nl: Translation = {
         overline: "DevOps Engineer | Technical Developer | MSc Game Technologies",
         title: "Hallo!",
         bio: {
-            p1: "Ik ben een Technical Designer en DevOps Engineer die ervan houdt om uitdagingen om te zetten in boeiende ervaringen. Ik heb het geluk gehad aan diverse projecten te werken, van coderen tot gameplay ontwerpen, en elk project heeft me iets nieuws geleerd. Als generalist leer ik snel, pas ik me makkelijk aan en gebruik ik mijn brede ervaring om elk project vorm te geven tot iets fantastisch.",
+            p1: "Ik ben een DevOps Engineer die ervan houdt om uitdagingen om te zetten in boeiende ervaringen. Ik heb het geluk gehad aan diverse projecten te werken, van coderen tot gameplay ontwerpen, en elk project heeft me iets nieuws geleerd. Als generalist leer ik snel, pas ik me makkelijk aan en gebruik ik mijn brede ervaring om elk project vorm te geven tot iets fantastisch.",
             p2: "Ik ben van nature nieuwsgierig, of ik nu lastige softwareproblemen oplos of in praktische uitdagingen duik zoals autoprojecten en huisrenovaties (en af en toe iets 'repareren' wat niet kapot was houdt het leven interessant). Elk onconventioneel project is een kans om iets nieuws te leren.",
             p3: "Ik heb interesse in hoe ontwerpkeuzes gebruikersgedrag beïnvloeden. Mijn masterscriptie dook in hoe singleplayer survival games \"echte wereld\"-ervaringen kunnen simuleren en hoe multiplayer-elementen spelervaringen diepgaand kunnen veranderen en verbeteren.",
-            p4: "Ik hecht veel waarde aan samenwerking en geloof dat geweldige producten worden gebouwd door teams die ideeën delen en elkaar steunen. Als ik niet verdiept ben in software of game development, vind je me waarschijnlijk buiten, rotsen beklimmend en nieuwe avonturen omarmend."
+            p4: "Ik hecht veel waarde aan samenwerking en geloof dat geweldige producten worden gebouwd door teams die ideeën delen en elkaar steunen. Als ik niet verdiept ben in software of game development, vind je me waarschijnlijk buiten, rotsen aan het beklimmen :)"
         },
         contactTitle: "Contact",
         contactText: "Neem contact op via",
