@@ -12,7 +12,7 @@ export const en: Translation = {
         title: "Hi, I'm Feiko.",
         subtitle: "I combine my technical skills with a background in psychology to build reliable systems and help teams work better.",
         cta: "Contact Me",
-        secondaryCta: "Using psychology in tech?",
+        secondaryCta: "About Me",
     },
     services: {
         title: "Technical Expertise",
@@ -40,10 +40,17 @@ export const en: Translation = {
         items: [
             {
                 role: "Freelance DevOps Engineer",
-                company: "Outlier, Mercer",
-                date: "Sept 2024 - Present",
-                description: "IoT DevOps in an industrial setting. Focusing on reliability and sensor data flow.",
-                tags: ["IoT", "DevOps", "Reliability"]
+                company: "Various Projects",
+                date: "Jun 2025 - Present",
+                description: "DevOps processes for web development projects & Deployment of Azure IoT Edge on industrial applications.",
+                tags: ["Freelance", "CI/CD", "Azure IoT"]
+            },
+            {
+                role: "DevOps Engineer",
+                company: "Mercor",
+                date: "Jun 2024 - Jun 2025",
+                description: "Training Large Language Models (LLMs) with a focus on complex DevOps scenarios, code analysis, and technical accuracy.",
+                tags: ["LLM Training", "AI", "Python"]
             },
             {
                 role: "DevOps Engineer & Technical Designer",

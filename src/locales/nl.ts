@@ -40,10 +40,17 @@ export const nl: Translation = {
         items: [
             {
                 role: "Freelance DevOps Engineer",
-                company: "Outlier, Mercer",
-                date: "Sept 2024 - Heden",
-                description: "IoT DevOps in een industriële setting. Focus op betrouwbaarheid en sensor data flow.",
-                tags: ["IoT", "DevOps", "Betrouwbaarheid"]
+                company: "Diverse Projecten",
+                date: "Jun 2025 - Heden",
+                description: "DevOps processen voor web development projecten & Deployment van Azure IoT Edge op industriële applicaties.",
+                tags: ["Freelance", "CI/CD", "Azure IoT"]
+            },
+            {
+                role: "DevOps Engineer",
+                company: "Mercor",
+                date: "Jun 2024 - Jun 2025",
+                description: "Training van Large Language Models (LLMs) met een focus op complexe DevOps-vraagstukken, code-analyse en technische accuraatheid.",
+                tags: ["LLM Training", "AI", "Python"]
             },
             {
                 role: "DevOps Engineer & Technical Designer",
