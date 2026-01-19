@@ -10,7 +10,7 @@ export const en: Translation = {
     hero: {
         overline: "DevOps Engineer | Technical Developer | MSc Game Technologies",
         title: "Hi, I'm Feiko.",
-        subtitle: "I combine my technical skills with a background in psychology to build reliable systems and help teams work better.",
+        subtitle: "From accelerating build processes to securing cloud environments; I combine digital expertise with cyberpsychology to architect systems that are scalable, secure, and reliable.",
         cta: "Contact Me",
         secondaryCta: "About Me",
     },
