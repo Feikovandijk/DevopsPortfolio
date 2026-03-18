@@ -8,14 +8,14 @@ export const nl: Translation = {
         contact: "Contact",
     },
     hero: {
-        overline: "DevOps Engineer | Technical Developer | MSc Game Technologies",
+        overline: "Beschikbaar voor werk",
         title: "Hi, Ik ben Feiko.",
-        subtitle: "Van het versnellen van build-processen tot het beveiligen van cloud-omgevingen; ik combineer digitale expertise met cyberpsychologie om systemen te bouwen die schaalbaar, veilig en betrouwbaar werken.",
-        cta: "Neem Contact Op",
-        secondaryCta: "Over Mij",
+        subtitle: "DevOps Engineer die digitale expertise combineert met cyberpsychologie om systemen te bouwen die schaalbaar, veilig en betrouwbaar werken.",
+        cta: "Neem contact op",
+        secondaryCta: "Over mij",
     },
     services: {
-        title: "Technische Expertise",
+        title: "Expertise",
         items: {
             cloud: {
                 title: "Cloud & Infra",
@@ -36,7 +36,7 @@ export const nl: Translation = {
         },
     },
     experience: {
-        title: "CV & Ervaring",
+        title: "Ervaring",
         items: [
             {
                 role: "Freelance DevOps Engineer",
