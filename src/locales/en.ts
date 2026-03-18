@@ -8,14 +8,14 @@ export const en: Translation = {
         contact: "Contact",
     },
     hero: {
-        overline: "DevOps Engineer | Technical Developer | MSc Game Technologies",
+        overline: "Available for work",
         title: "Hi, I'm Feiko.",
-        subtitle: "From accelerating build processes to securing cloud environments; I combine digital expertise with cyberpsychology to architect systems that are scalable, secure, and reliable.",
-        cta: "Contact Me",
-        secondaryCta: "About Me",
+        subtitle: "DevOps Engineer combining digital expertise with cyberpsychology to architect systems that are scalable, secure, and reliable.",
+        cta: "Get in touch",
+        secondaryCta: "About me",
     },
     services: {
-        title: "Technical Expertise",
+        title: "Expertise",
         items: {
             cloud: {
                 title: "Cloud & Infra",
@@ -36,7 +36,7 @@ export const en: Translation = {
         },
     },
     experience: {
-        title: "Resume & Experience",
+        title: "Experience",
         items: [
             {
                 role: "Freelance DevOps Engineer",
